@@ -3,7 +3,7 @@ pipeline{
 	agent any
 
 	environment {
-		DOCKERHUB_CREDENTIALS=credentials('mct')
+		DOCKERHUB_CREDENTIALS=credentials('dockerhub-cred-fdm')
 	}
 
 	stages {
